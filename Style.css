@@ -1,0 +1,79 @@
+body{
+    font-family: sans-serif;
+    background-image: url(/images/opener-enemoi.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    image-rendering: 100vh;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    margin: 0;
+    background-color: black;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+ display: flex;
+}
+
+.logo img{ 
+    height: 60px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+
+}
+
+nav a:hover{
+    color: red;
+    text-shadow: 0px 10px 5px  whitesmoke;
+
+}
+
+.red-text{
+    color: red;
+}
+
+.wrap{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 530px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    height: 530px;
+    text-decoration: none;
+}
+
+.wrap img{
+    padding: 10px;
+    padding-left: 160px;
+    width: 200px;
+    height: 300px;
+}
+
+.wrap h1{
+    text-align: center;
+}
+
+.wrap h2{
+    text-align: center;
+}
+
+.wrap a{
+    text-decoration: none;
+    color: red;
+}
+
