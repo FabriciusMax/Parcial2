@@ -1,0 +1,77 @@
+body{
+    font-family: sans-serif;
+    background-image: url(/images/BG_BLACK_5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    image-rendering: 100vh;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    margin: 0;
+    background-color: black;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+ display: flex;
+}
+
+.logo img{ 
+    height: 60px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+
+}
+
+nav a:hover{
+    color: red;
+    text-shadow: 0px 10px 5px  whitesmoke;
+
+}
+
+.red-text{
+    color: red;
+    text-decoration: solid;
+}
+
+.logoSMV{
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    text-decoration: none;
+}
+
+.logoSMV h1{
+    text-align: center;
+    
+}
+
+.logoSMV h2{
+    text-align: center;
+    
+}
+.logoSMV img {
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    padding-left: 100px;
+}
+
+#Parra{
+    text-align: center;
+}
