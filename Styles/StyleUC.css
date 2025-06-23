@@ -11,7 +11,7 @@ body{
     background-attachment: fixed;
     margin: 0;
     image-rendering: 100vh;
-    color: white;
+    color: black;
      font-family: Texto;
 }
 
@@ -51,7 +51,8 @@ nav a:hover{
     text-decoration: solid;
 }
 
-.logoSMV{
+#Parra{
+
     display: block;
     width: 400px;
     height: 400px;
@@ -59,25 +60,6 @@ nav a:hover{
     align-items: center;
     align-content: center;
     text-decoration: none;
-}
-
-.logoSMV h1{
     text-align: center;
     
-}
-
-.logoSMV h2{
-    text-align: center;
-    
-}
-.logoSMV img {
-    align-items: center;
-    width: 200px;
-    height: 200px;
-    padding: 10px;
-    padding-left: 100px;
-}
-
-#Parra{
-    text-align: center;
 }
