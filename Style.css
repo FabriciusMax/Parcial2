@@ -1,4 +1,10 @@
+@font-face {
+    font-family: Texto;
+    src: url("Fuentes/MinionPro-Regular.otf");
+}
+
 body{
+
     font-family: sans-serif;
     background-image: url(/images/opener-enemoi.jpeg);
     background-repeat: no-repeat;
@@ -7,6 +13,7 @@ body{
     margin: 0;
     image-rendering: 100vh;
     color: white;
+    font-family: Texto;
 }
 
 header{
