@@ -5,7 +5,7 @@
 
 body{
     font-family: sans-serif;
-    background-image: url(/images/Backgrounds/BG_BLACK_9.jpg);
+    background-image: url(/images/Backgrounds/BG_WHITE_3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -46,21 +46,38 @@ nav a:hover{
 
 }
 
-h1{
-    text-align: center;
+.red-text{
+    color: red;
+    text-decoration: solid;
 }
 
-#Books div{
-    min-height: 400px;
-    display: flex;
-    justify-content: center;
+.logoSMV{
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin: auto;
     align-items: center;
+    align-content: center;
+    text-decoration: none;
+}
+
+.logoSMV h1{
+    text-align: center;
     
 }
 
-#Books img{
-    width: 280px;
-    height: 400px;
+.logoSMV h2{
+    text-align: center;
+    
+}
+.logoSMV img {
+    align-items: center;
+    width: 200px;
+    height: 200px;
     padding: 10px;
-    margin: 5px;
+    padding-left: 100px;
+}
+
+#Parra{
+    text-align: center;
 }
