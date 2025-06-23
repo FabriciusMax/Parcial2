@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Texto;
+    font-family: "Texto";
     src: url("Fuentes/MinionPro-Regular.otf");
 }
 
@@ -51,11 +51,66 @@ nav a:hover{
     color: red;
 }
 
+.form-register {
+
+  width: 500px;
+  background: rgba(26, 22, 22, 0.5);
+  padding: 55px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 4px;
+  font-family: Texto;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #000000;
+    font-family: "Texto";
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: red;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: #FFD700;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #3a0303;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 a{
     color: red;
     text-decoration: none;
 }
 
-#Fa{
-    color: RED;
-}
