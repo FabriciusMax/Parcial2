@@ -60,7 +60,7 @@ nav a:hover{
     width: 530px;
     background-color: transparent;
     backdrop-filter: blur(20px);
-    height: 530px;
+    height: 550px;
     text-decoration: none;
 }
 
@@ -79,8 +79,16 @@ nav a:hover{
     text-align: center;
 }
 
+.wrap p{
+
+    text-align: justify;
+    padding: 15px;
+}
+
 .wrap a{
     text-decoration: none;
     color: red;
+   align-content: center;
+   padding: 10px;
 }
 
