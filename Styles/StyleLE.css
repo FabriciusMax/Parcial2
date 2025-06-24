@@ -24,6 +24,15 @@ header{
     padding: 10px;
 }
 
+audio {
+  width: 250px;
+  filter: drop-shadow(0 0 5px rgb(223, 20, 20)); /* Ejemplo decorativo */
+  border-radius: 8px;
+  margin: 10px auto;
+  display: block;
+  
+}
+
 .logo{
  display: flex;
 }
