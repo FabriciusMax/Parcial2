@@ -1,6 +1,6 @@
 @font-face {
     font-family: Texto;
-    src: url("Fuentes/MinionPro-Regular.otf");
+    src: url("/Fuentes/MinionPro-Regular.otf");
 }
 
 body{
@@ -11,7 +11,7 @@ body{
     margin: 0;
     image-rendering: 100vh;
     color: white;
-     font-family: Texto;
+     font-family: "Texto";
 }
 
 header{
@@ -30,7 +30,9 @@ header{
 
 .logo img{ 
     height: 60px;
+    padding: 8px;
 }
+
 
 nav a{
     text-decoration: none;

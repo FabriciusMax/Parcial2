@@ -1,8 +1,7 @@
 @font-face {
-    font-family: Texto;
-    src: url("Fuentes/MinionPro-Regular.otf");
+    font-family: "Texto";
+    src: url("/Fuentes/MinionPro-Regular.otf");
 }
-
 body{
     background-image: url(/images/Backgrounds/BG_BLACK_5.jpg);
     background-repeat: no-repeat;
@@ -11,7 +10,7 @@ body{
     margin: 0;
     image-rendering: 100vh;
     color: white;
-     font-family: Texto;
+     font-family: "Texto";
 }
 
 header{
@@ -30,7 +29,9 @@ header{
 
 .logo img{ 
     height: 60px;
+    padding: 8px;
 }
+
 
 nav a{
     text-decoration: none;
