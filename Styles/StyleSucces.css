@@ -4,8 +4,9 @@
 }
 
 body{
-
-    background-image: url(/images/Backgrounds/BG_BLACK_15.jpg);
+    display: flex;
+    text-align: center;
+    background-image: url(/images/Backgrounds/BG_BLACK_9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -48,29 +49,5 @@ nav a:hover{
 
 .red-text{
     color: red;
-}
-
-.pru {
-    text-align: center;
-}
-
-#Pr{
-    display: block;
-    justify-content: center;
-    align-items: center;
-        
-    
-}
-    div img{
-
-        padding: 30px;
-        height: 500px;
-    }
-
-.Wrap h1{
-    text-align: center;
-}
-
-.Wrap iframe{
-    padding-left: 650px;
+    text-decoration: solid;
 }

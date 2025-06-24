@@ -4,7 +4,7 @@
 }
 
 body{
-    font-family: sans-serif;
+
     background-image: url(/images/Backgrounds/BG_BLACK_9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,4 +63,9 @@ h1{
     height: 400px;
     padding: 10px;
     margin: 5px;
+}
+
+#Books img:hover{
+transform: scale(1.1);
+transition: 2s;
 }
