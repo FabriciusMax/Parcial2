@@ -1,12 +1,12 @@
 @font-face {
     font-family: "Texto";
-    src: url("/Fuentes/MinionPro-Regular.otf");
+    src: url("Fuentes/MinionPro-Regular.otf");
 }
 
 body{
 
 
-    background-image: url(/images/Backgrounds/opener-enemoi.jpeg);
+    background-image: url(images/Backgrounds/opener-enemoi.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
